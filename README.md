@@ -18,7 +18,11 @@ That's where this script comes in.
 Usage
 ========
 
-Change line 2: open('test.csv', 'rb') to be the name of the CSV file relative to the script (or the system root)
+Change 
+```python
+2: with open('test.csv', 'rb') as f:
+```
+to be the name of the CSV file relative to the script (or the system root)
   - Looking to build some command line args to make this easier.  Suggestions welcome
 
 
